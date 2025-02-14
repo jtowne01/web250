@@ -41,8 +41,13 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
     text-align: left;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 4px solid #7d2911; 
+    background-color: #ffb672;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 footer {
@@ -85,15 +90,6 @@ h1 {
 h2, h3, h4, h5, h6 {
     text-align: center;
     color: #363636;
-}
-
-.box-model {
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 20px; 
-    border: 4px solid #7d2911; 
-    background-color: #ffb672;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 figure {
