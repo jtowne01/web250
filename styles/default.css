@@ -23,16 +23,18 @@ header nav {
 }
 
 footer {
-    padding: 10px;
     border-top: none;
     text-align: center;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 footer, footer p {
     color: #1C1C1C;
-    line-height: 1;
-    font-size: 22px;
+    line-height: .5;
+    font-size: 18px;
+    padding-bottom: 0px;
+    
 }
 
 nav ul {
