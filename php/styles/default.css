@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffb672; 
+    background-image: url("../images/stripes.jpg"); 
+    background-blend-mode: soft-light; 
+    color: #1C1C1C; 
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+header nav, footer {
+    background-color: #fd8d3a;
+    max-width: 1220px;
+    margin: 0 auto;
+    border: 4px solid #7d2911;
+}
+
+header nav {
+    padding: 10px;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+footer {
+    padding: 10px;
+    border-top: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer, footer p {
+    color: #1C1C1C;
+    line-height: 1;
+    font-size: 22px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav a, footer a, main a {
+    color: #1C1C1C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#certification {
+    font-style: italic;
+}
+
+nav a:hover, a:hover {
+    color: #ffecd5;
+}
+
+ul li ul.dropdown {
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: #fd8d3a;
+    border: 2px solid #7d2911;
+    padding: 5px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul.dropdown li a {
+    padding: 5px 10px;
+    display: block;
+}
+
+ul.dropdown li a:hover {
+    background-color: #7d2911;
+}
+
+main {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #7d2911;
+    background-color: #ffb672;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h4, h5, h6, section, ol {
+    text-align: center;
+    color: #363636;
+}
+
+h2, h3 {
+    margin: -10px;
+    text-align: center;
+    color: #363636;
+}
+
+section, ol {
+    font-size: 20px;
+    text-align: left;
+}
+
+figure {
+    text-align: center;
+}
+
+#portrait {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -5px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#lengthy-fieldset {
+    border: 4px solid #7d2911;
+    border-radius: 25px;
+    background-color: #ffb672;
+    padding: 20px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+#output-box {
+    display: none;
+    margin: 30px; 
+    padding: 20px 50px; 
+    background-color: #ffb672;
+    color: #1C1C1C;
+    overflow-y: auto;
+    max-height: 400px;
+    max-width: 680px;
+    border: 4px solid #7d2911;
+    border-radius: 8px;
+    position: relative;
+    left: 48.5%;
+    transform: translateX(-50%);
+    font-size: 22px;
+}
+
+#divisor-1, #divisor-2, #divisor-3, #middle-initial, #total-count {
+width: 50px;
+}
+
+#first-name,  #last-name, #first-word, #second-word, #third-word {
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    #fizz-buzz-list {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
