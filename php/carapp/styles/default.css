@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffb672; 
+    background-image: url("../images/stripes.jpg"); 
+    background-blend-mode: soft-light; 
+    color: #1C1C1C; 
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+header nav, footer {
+    background-color: #fd8d3a;
+    max-width: 1220px;
+    margin: 0 auto;
+    border: 4px solid #7d2911;
+}
+
+header nav {
+    padding: 10px;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+footer {
+    padding: 10px;
+   /* border-top: none; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer, footer p {
+    color: #1C1C1C;
+    line-height: .5;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav a, footer a, main a {
+    color: #1C1C1C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a {
+    font-size: 22px;
+    border: 6px solid #7d2911;
+    background-color: #fd8d3a;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+}
+
+nav a:hover, a:hover {
+    color: #ffecd5;
+}
+
+ul li ul.dropdown {
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: #fd8d3a;
+    border: 2px solid #7d2911;
+    padding: 5px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul.dropdown li a {
+    padding: 5px 10px;
+    display: block;
+}
+
+ul.dropdown li a:hover, main a:hover, input[type="submit"]:hover {
+    background-color: #7d2911;
+    cursor: grab;
+}
+
+main {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #7d2911;
+    background-color: #ffb672;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h4, h5, h6, section, ol {
+    text-align: center;
+    color: #363636;
+}
+
+h2, h3 {
+    margin: -10px;
+    text-align: center;
+    color: #363636;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+form {
+    /* border: 6px solid #7d2911; */
+    max-width: 1300px;
+    max-height: 500px;
+    text-align: center;
+    text-align: left;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+input[type="submit"] {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 22px;
+    border: 4px solid #7d2911;
+    background-color: #fd8d3a;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 4px solid #7d2911;
+    border-radius: 25px;
+    background-color: #ffb672;
+    
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
