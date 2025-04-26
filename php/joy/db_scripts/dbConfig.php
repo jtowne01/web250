@@ -13,10 +13,10 @@ $ISLOCAL = 0;
 } else {
 
     //mySQL->Deployed Host
-$serverName = 'sql112.infinityfree.com';
-$username = 'if0_38362188';
-$password = '30vrtLokpgT';
-$databaseName = 'if0_38362188_cars';
+$serverName = '';
+$username = '';
+$password = '';
+$databaseName = '';
 $thing = 'thing';
 $ISLOCAL = 0;
 }
