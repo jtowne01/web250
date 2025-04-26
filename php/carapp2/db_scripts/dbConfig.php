@@ -13,10 +13,10 @@ if ($_SERVER['HTTP_HOST'] === 'localhost')
 } else {
 
     //mySQL->Deployed Host
-$serverName = 'sql112.infinityfree.com';
-$username = 'if0_38362188';
-$password = '30vrtLokpgT';
-$databaseName = 'if0_38362188_jazzytiger2';
+$serverName = '';
+$username = '';
+$password = '';
+$databaseName = '';
 $thing = 'thing';
 $ISLOCAL = 0;
 }
